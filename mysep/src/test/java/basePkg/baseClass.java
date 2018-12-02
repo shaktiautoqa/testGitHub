@@ -12,7 +12,7 @@ public class baseClass {
 		System.setProperty("webdriver.chrome.driver", "F:\\softwares\\Automation\\chromedriver.exe");
 		driver = new ChromeDriver();
 		driver.get("https://gsure.in");
-		
+		driver.manage().window().maximize();
 	}
 	
 }
